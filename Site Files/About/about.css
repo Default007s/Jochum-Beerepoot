@@ -1,0 +1,156 @@
+.dropdown {
+  left: 59vw !important;
+}
+
+.aboutSection {
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12vw;
+}
+
+.mainTagline {
+  margin-top: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.beforeStart {
+  color: var(--black);
+}
+
+.bitAboutMe {
+  font-size: 3vw;
+  color: var(--yellow);
+}
+
+.sl {
+  width: 64vw;
+  height: 22vw;
+  background-color: var(--grey);
+}
+
+.sr {
+  width: 120vw;
+  margin-left: 4vw;
+  height: 22vw;
+}
+
+.sr p {
+  line-height: 1.5vw;
+  font-size: 1.25vw;
+  color: var(--black);
+}
+
+.btns {
+  margin-top: 5.5vw;
+}
+
+.btn {
+  font-family: "Hind", sans-serif;
+  font-weight: semi-bold;
+  background-color: #fff;
+  border-radius: none;
+  font-size: 1.2vw;
+  padding: 0.3vw 2.5vw;
+  border: 1px solid var(--yellow);
+  color: var(--yellow);
+  cursor: pointer;
+  padding-top: 0.38vw;
+}
+
+.contactBtn {
+  background-color: var(--yellow);
+  color: white;
+  margin-right: 1vw;
+}
+
+.socialMedia {
+  margin-top: 3vw;
+}
+
+.socialMedia i {
+  font-size: 1.6vw;
+  margin-right: 1.3vw;
+  color: var(--black);
+}
+/*                   {}
+*/
+
+@media (max-width: 778px) {
+  .bitAboutMe {
+    font-size: 3.99vw;
+  }
+
+  .sr p {
+    font-size: 1.9vw;
+    line-height: 2.7vw;
+  }
+
+  .btn {
+    padding: 0.8vw 4vw;
+    font-size: 1.5vw;
+  }
+
+  .socialMedia i {
+    font-size: 2.6vw;
+    margin-right: 2.1vw;
+    color: var(--black);
+  }
+
+  .dropdown {
+    left: 32% !important;
+  }
+}
+
+@media (max-width: 415px) {
+  .aboutSection {
+    flex-direction: column;
+  }
+
+  .bitAboutMe {
+    font-size: 6vw;
+  }
+
+  .sl {
+    width: 50vw;
+    height: 45vw;
+    margin-bottom: -14vw;
+  }
+
+  .sr p {
+    font-size: 4vw;
+    line-height: 5vw;
+    padding: 20vw;
+  }
+
+  .disTxt {
+    display: none;
+  }
+
+  .btn {
+    font-size: 3.8vw;
+    font-weight: lighter;
+    padding: 1.5vw 12.5vw;
+  }
+
+  .btns {
+    margin-top: -10vw;
+    margin-left: 20vw;
+  }
+
+  .socialMedia i {
+    font-size: 6vw;
+    color: var(--black);
+    margin-right: 5vw;
+  }
+
+  .socialMedia {
+    margin-top: 8vw;
+    margin-left: 44vw;
+  }
+}

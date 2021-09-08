@@ -1,0 +1,166 @@
+.dropdown {
+  left: 59vw !important;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 7vw;
+}
+
+.mainTagline {
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.beforeStart {
+  color: var(--black);
+}
+
+.bitAboutMe {
+  font-size: 3vw;
+  color: var(--yellow);
+}
+
+.name,
+.email {
+  font-size: 1.3vw;
+  font-weight: lighter;
+  color: var(--black);
+}
+
+.iframe {
+  border: 1px solid var(--grey);
+}
+
+.socialMedia {
+  margin-top: 3vw;
+}
+
+.socialMedia i {
+  font-size: 1.8vw;
+  margin-right: 1.3vw;
+  color: var(--black);
+}
+
+.sr {
+  margin-left: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sr p {
+  position: absolute;
+  margin-top: 24vw;
+}
+
+.sr p i {
+  color: var(--black);
+  font-size: 1.3vw;
+  margin-right: 0.8vw;
+}
+
+iframe {
+  width: 32vw;
+  height: 23vw;
+}
+
+@media (max-width: 778px) {
+  .name,
+  .email {
+    font-size: 2vw;
+    font-weight: lighter;
+    color: var(--black);
+  }
+
+  .mainTagline {
+    margin-top: 20vw;
+  }
+
+  .bitAboutMe {
+    font-size: 3.99vw;
+  }
+
+  .socialMedia i {
+    font-size: 2.5vw;
+  }
+
+  .sr {
+    margin-left: 10vw;
+  }
+
+  .mainSection {
+    margin-top: 12vw;
+  }
+
+  .sr p i {
+    color: var(--black);
+    font-size: 1.8vw;
+    margin-right: 0.8vw;
+  }
+  .dropdown {
+    left: 32% !important;
+  }
+}
+
+@media (max-width: 415px) {
+  .aboutSection {
+    flex-direction: column;
+  }
+
+  .mainSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sl h1 {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vw;
+    margin-top: 7vw;
+  }
+
+  .socialMedia i {
+    font-size: 5vw;
+    margin-right: 6vw;
+  }
+
+  .bitAboutMe {
+    font-size: 6vw;
+  }
+
+  .sr {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  iframe {
+    width: 80vw;
+    height: 60vw;
+  }
+
+  .sr p {
+    margin-top: 64vw;
+  }
+
+  .sr p i {
+    font-size: 3.5vw;
+  }
+
+  .name,
+  .email {
+    line-height: 4.7vw;
+  }
+}
